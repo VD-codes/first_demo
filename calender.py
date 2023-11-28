@@ -1,3 +1,7 @@
+
+import streamlit as st
+st.title("Vasudev")
+
 days = int(input("Enter the days in month : "))
 first_day = int(input("Enter the first days of the month : "))
 print("Mon\tTue\twed\tthi\tfri\tsat\tsun")
@@ -15,3 +19,4 @@ while num<=days:
         num +=1
         count= count + 1
         print("New")
+        
