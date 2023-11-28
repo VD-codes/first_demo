@@ -14,4 +14,4 @@ while num<=days:
         print(num,end="\t")
         num +=1
         count= count + 1
-
+        print("New")
